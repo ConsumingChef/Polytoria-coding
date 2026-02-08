@@ -5,7 +5,7 @@
 
 
   "[lua]": {
-    "editor.semanticHighlighting.enabled": false
+    "editor.semanticHighlighting.enabled": true
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -16,5 +16,9 @@
         "settings": { "foreground": "#c586c0" }
       }
     ]
-  }
+  },
+  "Lua.diagnostics.disable": [
+    "assign-type-mismatch",
+    "param-type-mismatch"
+  ]
 }
