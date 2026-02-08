@@ -14,7 +14,6 @@ This project is **free and open source** for anyone to use. I will keep updating
 ## Prerequisites
 
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [Lua 5.1](https://www.lua.org/download.html)
 - [Lua Language Server](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) extension for VSCode
 
 ## Installation

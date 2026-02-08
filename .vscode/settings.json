@@ -1,25 +1,20 @@
 {
   "Lua.workspace.library": [
-    "C:/Users/abroc/Nextcloud/Project-code/Github/Polytoria-coding/lua" // Enter your lua folder path here
+    "C:/Users/abroc/Nextcloud/Project-code/Github/Polytoria-coding/lua-library" // Enter your lua folder path here
   ],
-  "Lua.diagnostics.globals": [
-    "Color",
-    "CFrame",
-    "game",
-    "Instance",
-    "Vector3",
-    "Tween",
-    "wait",
-    "warn",
-    "script",
-    "print",
-    "Achivements",
-    "Chat",
-    "CoreUI",
-    "Datastore",
-    "Http",
-    "Input",
-    "Insert",
-    "json"
-  ]
+
+
+  "[lua]": {
+    "editor.semanticHighlighting.enabled": false
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "keyword.operator.logical.lua"
+        ],
+        "settings": { "foreground": "#c586c0" }
+      }
+    ]
+  }
 }
