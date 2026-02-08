@@ -1,4 +1,3 @@
-```markdown
 # Polytoria Lua Type Definitions
 
 Complete Lua type definitions for Polytoria game development with full IntelliSense support in Visual Studio Code.
@@ -107,4 +106,3 @@ If you encounter any issues or have questions:
 ---
 
 Made with ❤️ for the Polytoria community !
-```
