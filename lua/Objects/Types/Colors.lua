@@ -9,7 +9,7 @@ Color = {}
 ---@overload fun(n: number): Color
 ---@overload fun(r: number, g: number, b: number): Color
 ---@overload fun(r: number, g: number, b: number, a: number): Color
-function Color.new() end
+function Color.New() end
 
 ---@param hex string
 ---@return Color
@@ -32,7 +32,7 @@ ColorRange = {}
 ---@param min Color
 ---@param max Color
 ---@return ColorRange
-function ColorRange.new(min, max) end
+function ColorRange.New(min, max) end
 
 ---@param t number
 ---@return Color

@@ -70,8 +70,8 @@ local player = game["Players"].LocalPlayer
 player:Kick("Reason")
 
 -- Type definitions for all classes
-local part = Instance.new("Part", env)
-part.Color = Color.new(1, 0, 0)
+local part = Instance.New("Part", env)
+part.Color = Color.New(1, 0, 0)
 ```
 
 ## Troubleshooting

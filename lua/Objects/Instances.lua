@@ -101,7 +101,7 @@ Instance = {}
 ---@overload fun(className: "UILabel", Parent: Instance?): UILabel
 ---@overload fun(className: "UITextInput", Parent: Instance?): UITextInput
 ---@overload fun(className: "UIView", Parent: Instance?): UIView
-function Instance.new(className, Parent) end
+function Instance.New(className, Parent) end
 
 
 ---@return Instance
