@@ -31,11 +31,14 @@ RayResult = {}
 
 
 ---@class Signal
----@field Invoked Event
 Signal = {}
 
----@param ... any
-function Signal:Invoke(...) end
+---@param callback function
+function Signal:Connect(callback) end
+
+---@param callback function
+function Signal:Disconnect(callback) end
+
 
 ---@class Quaternion
 Quaternion = {}
