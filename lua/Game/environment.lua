@@ -1,9 +1,3 @@
----@class RayResult
----@field Instance Instance
----@field Position Vector3
----@field Normal Vector3
----@field Distance number
-
 ---@class Environment : Instance
 ---@field AutoGenerateNavMesh boolean
 ---@field FogColor Color
