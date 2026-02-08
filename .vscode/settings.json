@@ -1,6 +1,6 @@
 {
   "Lua.workspace.library": [
-    "C:/Users/abroc/Nextcloud/Project-code/Github/Polytoria-coding/lua-library" // Enter your lua folder path here
+    "C:/path/to/your/lua-library" // Enter your lua-library folder path here
   ],
 
 

@@ -16,6 +16,9 @@ This project is **free and open source** for anyone to use. I will keep updating
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Lua Language Server](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) extension for VSCode
 
+  **Image to help beginners:**
+   [Install](https://cdn.discordapp.com/attachments/955587994524459059/1470020354327183465/Screenshot_2026-02-08_063514.png?ex=6989c6a4&is=69887524&hm=fe34f8f130b92a84d9c3fa6e81797f9abac9db05e84834ecb1a52bdc82c293c4&)
+
 ## Installation
 
 ### Step 1: Download the Project
@@ -24,6 +27,10 @@ This project is **free and open source** for anyone to use. I will keep updating
 2. Extract it to a permanent location on your computer
    
    > ⚠️ **Important:** Do NOT place the folder in your Downloads directory to avoid accidental deletion
+
+  **Images to help beginners:**
+   [Install](https://media.discordapp.net/attachments/955587994524459059/1470018571257254060/Screenshot_2026-02-08_062212.png?ex=6989c4fb&is=6988737b&hm=987e15d7592218b260d0af3fb338589bc8e8b2c31abfcb5ad39d0e44b1bba576&=&format=webp&quality=lossless&width=1683&height=702)
+   [Extract](https://cdn.discordapp.com/attachments/955587994524459059/1470018571642998794/Screenshot_2026-02-08_062447.png?ex=6989c4fb&is=6988737b&hm=9b7239b0134523eacd848af0f4f8c601e5bf5b9220071b79ca9205e846078e84&)
 
 ### Step 2: Open in Visual Studio Code
 
@@ -38,13 +45,18 @@ This project is **free and open source** for anyone to use. I will keep updating
 2. Find **line 3** which contains the workspace library path
 3. Replace the path with your Lua installation directory
 
+**Images to help beginners:**
+   [Find-correct-file](https://cdn.discordapp.com/attachments/955587994524459059/1470018572011966608/Screenshot_2026-02-08_062553.png?ex=6989c4fb&is=6988737b&hm=6d9b6a04286f684edfc92e3cc019888c23ab519b6b364ffb8000520df84f958e&)
+
+   **Click on the highlighted bar and copy the path**
+   [find-path](https://cdn.discordapp.com/attachments/955587994524459059/1470018572355895459/Screenshot_2026-02-08_062738.png?ex=6989c4fb&is=6988737b&hm=9b6e0f2421832e48f6a7c473e37111a6ab012ba2400e0ab204a3d0db611600d2&)
 
 **Example configuration:**
 
 ```json
 {
   "Lua.workspace.library": [
-    "C:/path/to/your/polytoria-coding/lua"  // Change this to the path of the lua folder inside of polytoria-coding
+    "C:/path/to/your/polytoria-coding/lua-library"  // Change this to the path of the lua-library folder inside of polytoria-coding
   ]
 }
 ```
@@ -73,6 +85,23 @@ local part = Instance.New("Part", env)
 part.Color = Color.New(1, 0, 0)
 ```
 
+## Double Underscores
+
+If a type ends with double underscores, it just indicates its an instance of that type. For example, ``Instance__`` is an instance of the ``Instance`` type. This does not affect your code, this is just to prevent recommendations from showing, for example, ".New" on a Player (.New is only valid on the static Instance type, and not on an instance of ``Instance``).
+
+Note: Not every class has a double underscore type! So if a function wants you to pass a ``Part``, you still should pass an instance (which should also have the ``Part`` type, because ``Part__`` does not exist).
+
+In general: Ignore the double underscores, they are just to provide better hints to the language server.
+
+## Casting
+
+Since Lua is not a typed language, it is not possible to cast types within Lua. But you kinda need to! For example, ``Instance__:FindChild`` returns an ``Instance__``, but you know it's a ``Part__``. You can cast it by using the ``as`` annotation:
+
+```lua
+local part = myInstance:FindChild("MyPart") --[[@as Part]]
+```
+
+
 ## Troubleshooting
 
 ### Autocomplete not working?
@@ -83,7 +112,6 @@ part.Color = Color.New(1, 0, 0)
 
 ### Still having issues?
 
-- Make sure you're using Lua 5.1 (not 5.2, 5.3, or 5.4)
 - Check that the path doesn't contain spaces or special characters (wrap in quotes if it does)
 - Try using forward slashes `/` instead of backslashes `\` in the path
 
@@ -103,5 +131,5 @@ If you encounter any issues or have questions:
 - Check the [Polytoria Documentation](https://docs.polytoria.com/objects/game/Game/)
 
 ---
-
+Huge shoutout to GoldenretriverYT 🙏
 Made with ❤️ for the Polytoria community !
