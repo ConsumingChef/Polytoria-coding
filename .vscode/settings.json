@@ -1,0 +1,25 @@
+{
+  "Lua.workspace.library": [
+    "C:/Users/abroc/Nextcloud/Project-code/Github/Polytoria-coding/lua" // Enter your lua folder path here
+  ],
+  "Lua.diagnostics.globals": [
+    "Color",
+    "CFrame",
+    "game",
+    "Instance",
+    "Vector3",
+    "Tween",
+    "wait",
+    "warn",
+    "script",
+    "print",
+    "Achivements",
+    "Chat",
+    "CoreUI",
+    "Datastore",
+    "Http",
+    "Input",
+    "Insert",
+    "json"
+  ]
+}

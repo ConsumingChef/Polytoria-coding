@@ -1,0 +1,86 @@
+-- ---@class Player
+-- ---@field Name string
+-- ---@field UserId number
+-- ---@field Character Model?
+
+-- local Player = {}
+
+-- ---@return boolean
+-- function Player:IsAdmin()
+-- end
+
+-- ---@param reason string?
+-- function Player:Kick(reason)
+-- end
+
+-- return Player
+
+
+
+-- // Player Defaults
+---@class PlayerDefaults : Instance
+---@field ChatColor Color
+---@field JumpPower number
+---@field MaxHealth number
+---@field MaxStamina number
+---@field RespawnTime number
+---@field SprintSpeed number
+---@field Stamina number
+---@field StaminaEnabled boolean
+---@field StaminaRegen number
+---@field WalkSpeed number
+---@field LoadDefaults fun(self: PlayerDefaults, player: Player)
+
+-- // Players
+---@class Players : Instance
+---@field LocalPlayer Player
+---@field PlayerCollisionEnabled boolean
+---@field PlayerAdded Signal
+---@field PlayerRemoved Signal
+---@field GetPlayer fun(self: Players, username: string): Player|nil
+---@field GetPlayerByID fun(self: Players, userID: number): Player|nil
+---@field GetPlayers fun(self: Players): Player[]
+
+
+-- // Player
+
+---@class Player : DynamicInstance
+---@field Anchored boolean
+---@field CanMove boolean
+---@field ChatColor Color
+---@field ShirtID number
+---@field PantsID number
+---@field FaceID number
+---@field HeadColor Color
+---@field Health number
+---@field IsAdmin boolean
+---@field IsCreator boolean
+---@field IsInputFocused boolean
+---@field JumpPower number
+---@field LeftArmColor Color
+---@field LeftLegColor Color
+---@field MaxHealth number
+---@field MaxStamina number
+---@field RespawnTime number
+---@field RightArmColor Color
+---@field RightLegColor Color
+---@field SittingIn Seat
+---@field SprintSpeed number
+---@field Stamina number
+---@field StaminaEnabled boolean
+---@field StaminaRegen number
+---@field TorsoColor Color
+---@field UserID number
+---@field WalkSpeed number
+---@field Chatted Signal
+---@field Died Signal
+---@field Respawned Signal
+---@field DropTools fun(self: Player)
+---@field Kick fun(self: Player, Reason: string|nil)
+---@field LoadAppearance fun(self: Player, userID: number)
+---@field ClearAppearance fun(self: Player)
+---@field OwnsItem fun(self: Player, assetID: number, callback: fun(error: any, owns: boolean))
+---@field ResetAppearance fun(self: Player)
+---@field Respawn fun(self: Player)
+---@field Sit fun(self: Player, Seat: Seat)
+---@field Unsit fun(self: Player, addForce: boolean|nil)

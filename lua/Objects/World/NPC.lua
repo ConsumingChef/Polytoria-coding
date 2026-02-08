@@ -1,0 +1,34 @@
+
+---@class NPC : DynamicInstance
+---@field Anchored boolean
+---@field FaceID number
+---@field Grounded boolean
+---@field HeadColor Color
+---@field Health number
+---@field MoveTarget Instance
+---@field WalkSpeed number
+---@field JumpPower number
+---@field MaxHealth number
+---@field ShirtID number
+---@field PantsID number
+---@field TorsoColor Color
+---@field LeftArmColor Color
+---@field RightArmColor Color
+---@field LeftLegColor Color
+---@field RightLegColor Color
+---@field NavDestinationDistance number
+---@field NavDestinationValid boolean
+---@field NavDestinationReached boolean
+---@field Velocity Vector3
+---@field Died Signal
+NPC = {}
+---@param userID number
+function NPC:LoadAppearance(userID) end
+function NPC:ClearAppearance() end
+---@param position Vector3
+function NPC:SetNavDestination(position) end
+function NPC:Respawn() end
+function NPC:Jump() end
+---@param tool Tool
+function NPC:EquipTool(tool) end
+function NPC:DropTool() end
