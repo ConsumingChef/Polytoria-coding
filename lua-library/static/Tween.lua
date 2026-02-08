@@ -63,3 +63,7 @@ function Tween:TweenVector2(startValue, endValue, time, callPerStep, type, callb
 --- @param type TweenType The style of the tween.
 --- @param callback? fun() A callback that is called when the tween is complete.
 function Tween:TweenVector3(startValue, endValue, time, callPerStep, type, callback) end
+
+--- Cancels an on-going tween based on its tweenID.
+--- @param tweenID number The number id of the tween you want to cancel.
+function Tween:Cancel(tweenID) end
