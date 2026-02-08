@@ -4,7 +4,7 @@
 ---@field Normal Vector3
 ---@field Distance number
 
----@class Environment
+---@class Environment : Instance
 ---@field AutoGenerateNavMesh boolean
 ---@field FogColor Color
 ---@field FogEnabled boolean
@@ -14,7 +14,7 @@
 ---@field PartDestroyHeight number
 ---@field Skybox SkyboxPreset
 
-
+Environment = {}
 ---@param Position Vector3
 ---@param Radius number
 ---@param Force number

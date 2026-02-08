@@ -6,3 +6,5 @@
 ---@field SunBrightness number
 ---@field SunColor Color
 ---@field Shadows boolean
+
+Lighting = {}
