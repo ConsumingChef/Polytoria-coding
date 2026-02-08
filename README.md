@@ -21,7 +21,7 @@ This project is **free and open source** for anyone to use. I will keep updating
 
 ### Step 1: Download the Project
 
-1. Download the project ZIP file
+1. Download the project [ZIP file](https://github.com/ConsumingChef/Polytoria-coding/archive/refs/heads/main.zip)
 2. Extract it to a permanent location on your computer
    
    > ⚠️ **Important:** Do NOT place the folder in your Downloads directory to avoid accidental deletion
