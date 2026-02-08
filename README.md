@@ -17,7 +17,7 @@ This project is **free and open source** for anyone to use. I will keep updating
 - [Lua Language Server](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) extension for VSCode
 
   **Image to help beginners:**
-   [Install](https://cdn.discordapp.com/attachments/955587994524459059/1470020354327183465/Screenshot_2026-02-08_063514.png?ex=6989c6a4&is=69887524&hm=fe34f8f130b92a84d9c3fa6e81797f9abac9db05e84834ecb1a52bdc82c293c4&)
+   <img src="https://cdn.discordapp.com/attachments/955587994524459059/1470020354327183465/Screenshot_2026-02-08_063514.png?ex=6989c6a4&is=69887524&hm=fe34f8f130b92a84d9c3fa6e81797f9abac9db05e84834ecb1a52bdc82c293c4&" alt="Logo" width="800"/>
 
 ## Installation
 
@@ -29,8 +29,8 @@ This project is **free and open source** for anyone to use. I will keep updating
    > ⚠️ **Important:** Do NOT place the folder in your Downloads directory to avoid accidental deletion
 
   **Images to help beginners:**
-   [Install](https://media.discordapp.net/attachments/955587994524459059/1470018571257254060/Screenshot_2026-02-08_062212.png?ex=6989c4fb&is=6988737b&hm=987e15d7592218b260d0af3fb338589bc8e8b2c31abfcb5ad39d0e44b1bba576&=&format=webp&quality=lossless&width=1683&height=702)
-   [Extract](https://cdn.discordapp.com/attachments/955587994524459059/1470018571642998794/Screenshot_2026-02-08_062447.png?ex=6989c4fb&is=6988737b&hm=9b7239b0134523eacd848af0f4f8c601e5bf5b9220071b79ca9205e846078e84&)
+     <img src="https://media.discordapp.net/attachments/955587994524459059/1470018571257254060/Screenshot_2026-02-08_062212.png?ex=6989c4fb&is=6988737b&hm=987e15d7592218b260d0af3fb338589bc8e8b2c31abfcb5ad39d0e44b1bba576&=&format=webp&quality=lossless&width=1683&height=702" alt="Logo" width="800"/>
+   <img src="https://cdn.discordapp.com/attachments/955587994524459059/1470018571642998794/Screenshot_2026-02-08_062447.png?ex=6989c4fb&is=6988737b&hm=9b7239b0134523eacd848af0f4f8c601e5bf5b9220071b79ca9205e846078e84&" alt="Logo" width="500"/>
 
 ### Step 2: Open in Visual Studio Code
 
@@ -46,10 +46,10 @@ This project is **free and open source** for anyone to use. I will keep updating
 3. Replace the path with your Lua installation directory
 
 **Images to help beginners:**
-   [Find-correct-file](https://cdn.discordapp.com/attachments/955587994524459059/1470018572011966608/Screenshot_2026-02-08_062553.png?ex=6989c4fb&is=6988737b&hm=6d9b6a04286f684edfc92e3cc019888c23ab519b6b364ffb8000520df84f958e&)
+<img src="https://cdn.discordapp.com/attachments/955587994524459059/1470018572011966608/Screenshot_2026-02-08_062553.png?ex=6989c4fb&is=6988737b&hm=6d9b6a04286f684edfc92e3cc019888c23ab519b6b364ffb8000520df84f958e&" alt="Logo" width="500"/>
 
    **Click on the highlighted bar and copy the path**
-   [find-path](https://cdn.discordapp.com/attachments/955587994524459059/1470018572355895459/Screenshot_2026-02-08_062738.png?ex=6989c4fb&is=6988737b&hm=9b6e0f2421832e48f6a7c473e37111a6ab012ba2400e0ab204a3d0db611600d2&)
+<img src="https://cdn.discordapp.com/attachments/955587994524459059/1470018572355895459/Screenshot_2026-02-08_062738.png?ex=6989c4fb&is=6988737b&hm=9b6e0f2421832e48f6a7c473e37111a6ab012ba2400e0ab204a3d0db611600d2&" alt="Logo" width="500"/>
 
 **Example configuration:**
 
