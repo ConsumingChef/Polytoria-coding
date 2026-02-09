@@ -4,6 +4,8 @@ Complete Lua type definitions for Polytoria game development with full IntelliSe
 
 This project is **free and open source** for anyone to use. I will keep updating it untill further notice.
 
+Make sure to leave a star to this project 😅
+
 ## Features
 
 - ✨ Full autocomplete for all Polytoria classes and methods
