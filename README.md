@@ -4,6 +4,8 @@ Complete Lua type definitions for Polytoria game development with full IntelliSe
 
 This project is **free and open source** for anyone to use. I will keep updating it untill further notice.
 
+Make sure to leave a star to this project 😅
+
 ## Features
 
 - ✨ Full autocomplete for all Polytoria classes and methods
@@ -47,7 +49,7 @@ This project is **free and open source** for anyone to use. I will keep updating
 
 1. In the VSCode Explorer sidebar, open `.vscode/settings.json`
 2. Find **line 3** which contains the workspace library path
-3. Replace the path with your Lua installation directory
+3. Replace the path with your lua-library directory
 
 **Images to help beginners:**
 
