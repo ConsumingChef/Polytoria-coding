@@ -44,7 +44,7 @@ This project is **free and open source** for anyone to use. I will keep updating
 
 1. In the VSCode Explorer sidebar, open `.vscode/settings.json`
 2. Find **line 3** which contains the workspace library path
-3. Replace the path with your Lua installation directory
+3. Replace the path with your lua-library directory
 
 **Images to help beginners:**
 
