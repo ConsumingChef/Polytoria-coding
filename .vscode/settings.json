@@ -5,7 +5,7 @@
 
 
   "[lua]": {
-    "editor.semanticHighlighting.enabled": true
+    "editor.semanticHighlighting.enabled": false
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [

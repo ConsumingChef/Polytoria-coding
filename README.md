@@ -11,6 +11,9 @@ This project is **free and open source** for anyone to use. I will keep updating
 - 🎯 Type checking for function parameters and return values
 - 🚀 Enhanced development experience
 
+## Preview
+<img src="https://cdn.discordapp.com/attachments/955587994524459059/1470424742938021980/image.png?ex=698b3f41&is=6989edc1&hm=68a04f8de4698160e3fd2ffb9662c58cba4cf1c1ec37bb818a0e4dd6c27fe04f&" alt="Logo" width="600"/>
+
 ## Prerequisites
 
 - [Visual Studio Code](https://code.visualstudio.com/)
